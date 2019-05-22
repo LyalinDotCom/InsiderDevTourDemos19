@@ -280,10 +280,9 @@
             <!--
                 TODO 3.3: [TeachingTip] - Remove Visibility="Collapsed" and show the HelpView.
             -->
-            <controls:HelpView x:Name="HelpView"
+            <controls:HelpView x:Name="HelperView"
                                Grid.RowSpan="4"
-                               Grid.ColumnSpan="3"
-                               Visibility="Collapsed" />
+                               Grid.ColumnSpan="3" />
         </Grid>
     </ScrollViewer>
 </Page>
